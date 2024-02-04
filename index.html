@@ -3,20 +3,43 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Jan Fiedler">
+    <meta name="keywords" content="portfolio">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>My Website</title>
+    <link rel="stylesheet" href="source/reset.css">
     <link rel="stylesheet" href="source/style.css">
+    <script src="index.js"></script>
   </head>
   <body>
-    <header>
-        <div>
-            <img src="source/xc_profile.jpg" style="width:min(100px, 20%)">
-            <h1>Jan Fiedler</h1>
-        </div>
+    <header role="page-header">
+        <a href="" class="logo" id="initial-logo">JF</a>
+        <nav>
+            <button>About</button>
+            <button>Resume</button>
+            <button>Contact</button>
+        </nav>
     </header>
-    <main>
-        <h1>Welcome to My Website</h1>  
+    <main role="main-content">
+        <div id="main-image">
+            <img src="source/profile.jpeg" style="width:min(100px, 20%)">
+        </div>
+        <div id="main-image">
+            <h1>Welcome to My Website</h1> 
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur hendrerit ornare vulputate. Nam sit amet augue blandit, iaculis risus vitae, varius magna. Vivamus et ultrices sapien, quis tincidunt justo. Nullam sit amet facilisis sapien
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur hendrerit ornare vulputate. Nam sit amet augue blandit, iaculis risus vitae, varius magna. Vivamus et ultrices sapien, quis tincidunt justo. Nullam sit amet facilisis sapien
+            </p>
+        </div>
+        
+
     </main>
-	<script src="index.js"></script>
+    <footer role="page-footer">
+        <p>
+            © 2024 Jan Fiedler
+        </p>
+    </footer>
   </body>
 </html>
