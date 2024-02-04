@@ -1,9 +1,8 @@
 
 
 body {
-    margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #ffffff;
+    background-color: #f0eeee;
 }
 
 nav {
@@ -12,12 +11,13 @@ nav {
 
 
 header {
-    background-color: #23d1d1;
+    background-color: #fff;
     color: white;
     display: flex;
     a {
         font-family: Arial, Helvetica, sans-serif;
         text-decoration: none;
+        color: black;
         font-size: 50px;
     }
     nav {
@@ -28,7 +28,7 @@ header {
         background-color: transparent;
         font-size: 15px;
         font-style: bold;
-        color: #ffffff;
+        color: black;
     }
     button:hover {
         background-color: #198b8b50;
@@ -36,11 +36,13 @@ header {
 }
 
 main {
-    padding: 20px;
+    margin: 15px;
+    padding: 10px;
     display: flex;
+    background-color: #fff;
      .main-image {
         padding: 0%;
-        box-shadow: 10px 10px 10px rgb(204, 31, 31);
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
      }
 }
 
