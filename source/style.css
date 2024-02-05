@@ -1,38 +1,51 @@
-
-
+/* comment */
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #f0eeee;
 }
 
-nav {
-    align-content: right;
+header {
+    background-color: #f0f0f0;
+    height: max-content;
+    overflow: hidden;
+    height: 70px;
+    position: relative;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
+header .logo {
+    float: left;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    margin-left: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: black;
+    font-size: 50px;
+}
 
-header {
-    background-color: #fff;
-    color: white;
-    display: flex;
-    a {
-        font-family: Arial, Helvetica, sans-serif;
-        text-decoration: none;
-        color: black;
-        font-size: 50px;
-    }
-    nav {
-        display: flex;
-    }
-    button {
-        border: none;
-        background-color: transparent;
-        font-size: 15px;
-        font-style: bold;
-        color: black;
-    }
-    button:hover {
-        background-color: #198b8b50;
-    }
+header .site-navigation {
+    float: right;
+    height: 100%;
+    margin-right: 10px;
+}
+
+header .nav-button {
+    height: 100%;
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+    font-style: bold;
+    color: black;
+    transition: 0.5s;
+    margin: 0px;
+}
+
+header .nav-button:hover {
+    background-color: #797a7a50;
+    
 }
 
 main {
@@ -42,14 +55,16 @@ main {
 main div{
     margin: 10px;;
     padding: 10px;
-    background-color: #fff;
+    background-color: #f0f0f0;
     border-radius: 5px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-     .main-image {
-        padding: 0%;
-        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-     }
 }
+
+main div .main-image {
+    padding: 0%;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+ }
+
 #bio {
     width: 200px;
     img {
@@ -58,10 +73,11 @@ main div{
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 10px;;
-    }
+    } 
 }
 
 footer {
+    width: 100%;
     position: absolute;
     bottom: 0;
     text-align: center;
