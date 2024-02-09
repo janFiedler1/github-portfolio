@@ -10,6 +10,9 @@
     <link rel="stylesheet" href="source/reset.css">
     <link rel="stylesheet" href="source/style.css">
     <script src="index.js"></script>
+    <audio id="pronunciation">
+        <source src="Cs-Jan.ogg" type="audio/ogg">
+    </audio>
   </head>
   <body>
     <header role="page-header">
@@ -21,22 +24,46 @@
         </nav>
     </header>
     <main role="main-content">
-        <div class="bio main1">
-            <img src="source/profile.jpeg">
-            <h1 class="name">Jan Fiedler</h1>
-            <a class="link" href="mailto:janfiedler812@gmail.com">janfiedler812@gmail.com</a>
-            <a href="https://github.com/janFiedler1">GitHub</a>
-            <a href="https://www.linkedin.com/in/jfiedleruwo/">LinkedIn</a>
+        <div class="row">
+            <div class="bio card">
+                <img class ="profile-picture" src="source/profile_square.jpg">
+                <h1 class="name">Jan Fiedler</h1>
+                <div class="link-icon-container">
+                    <a class="link-icon" href="mailto:janfiedler812@gmail.com" target="_blank">
+                        <img src="source/email_48.png">
+                    </a>
+                    <a class="link-icon" href="https://github.com/janFiedler1" target="_blank">
+                        <img src="source/github_48.png">
+                    </a>
+                    <a class="link-icon" href="https://www.linkedin.com/in/jfiedleruwo/" target="_blank">
+                        <img src="source/linkedin_48.png">
+                    </a>
+                </div>
+            </div>
+            <div class="about card">
+                <h1 class="welcome">Welcome</h1> 
+                <p>
+                    My name is Jan Fiedler, I am a web developer based in Hamilton, ON. 
+                </p>
+                <p>
+                    Lorem ipsum dolor 
+                </p>        
+            </div>
         </div>
-        <div class="about main1">
-            <h1>Welcome to My Website</h1> 
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur hendrerit ornare vulputate. Nam sit amet augue blandit, iaculis risus vitae, varius magna. Vivamus et ultrices sapien, quis tincidunt justo. Nullam sit amet facilisis sapien
-            </p>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur hendrerit ornare vulputate. Nam sit amet augue blandit, iaculis risus vitae, varius magna. Vivamus et ultrices sapien, quis tincidunt justo. Nullam sit amet facilisis sapien
-            </p>
+        <div class="row">
+            <div class="qualifications card">
+                <h1>Qualifications</h1> 
+                <p>here are my qualifications</p>
+            </div>
+            <div class="interests card">
+                <h1>Interests</h1> 
+                <p>I am interested in a lot of things</p>
+            </div>
         </div>
+        
+    </main>
+        
+        
     </main>
     <footer role="page-footer">
         <p>
