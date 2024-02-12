@@ -63,15 +63,23 @@ main {
     font-family: 'Courier New', Courier, monospace;
 }
 
+.card h1 {
+    font-size: 30px;
+}
+
+.card p {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
 .bio {
     flex: 0 0 300px;
-    font-size: 100%;
     text-align: center;
     height: auto;
 }
 
 .bio .profile-picture {
-    width: 70%;
+    width: 60%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -79,10 +87,21 @@ main {
     border-radius: 50%;
     box-shadow: 0 6px 20px 0 rgba(0,0,0,0.19);
 } 
-.bio .name {
-    font-size: 200%;
+.bio h1 {
+    font-size: 30px;
     margin-top: 10px;
-    margin-bottom: 10px;;
+    margin-bottom: 10px;
+}
+
+.bio h2 {
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    color: #888686;
+}
+
+.bio .flag {
+    height: 0.7em;
 }
 
 
@@ -91,14 +110,12 @@ main {
     text-decoration: none;
 }
 
-
-.card h1 {
-    font-size: 30px;
+.qualifications {
+    width: auto;
 }
 
-.card p {
-    font-size: 20px;
-    margin-top: 10px;
+.interests {
+    width: auto;
 }
 
 
