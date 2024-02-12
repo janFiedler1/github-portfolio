@@ -2,7 +2,7 @@
 header {
     background-color: #f0f0f0;
     overflow: hidden;
-    height: max(10vh, 50px);
+    height: 60px;
     position: relative;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
@@ -51,8 +51,9 @@ main {
     margin: 15px;
 }
 main .row {
-    display: flex;
+    display: block;
 }
+
 main .card {
     margin: 10px;
     padding: 10px;
@@ -61,15 +62,11 @@ main .card {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
-main div .main-image {
-    padding: 0%;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
- }
-
 main .bio {
-    width: 15vw;
+    width: 300px;
     font-size: 100%;
     text-align: center;
+    height: auto;
 }
 
 main .bio .profile-picture {
@@ -91,7 +88,6 @@ main .bio .name {
 main .bio .link-icon-container .link-icon {
     margin: 0px 10px 0px 10px;
     text-decoration: none;
-    width: 5%;
 }
 
 
@@ -108,9 +104,12 @@ footer {
         background-color: black;
         display: inline;
     }
-    main .bio {
-        width: 100vw;
+    main .card {
+        width: auto;
         font-size: 25px;
         text-align: center;
+    }
+    main .row {
+        display: inline;
     }
   }
