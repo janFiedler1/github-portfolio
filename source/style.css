@@ -50,26 +50,27 @@ main {
     display: inline;
     margin: 15px;
 }
-main .row {
-    display: block;
+.row {
+    display: flex;
 }
 
-main .card {
+.card {
     margin: 10px;
-    padding: 10px;
+    padding: 15px;
     background-color: #f0f0f0;
     border-radius: 5px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    font-family: 'Courier New', Courier, monospace;
 }
 
-main .bio {
-    width: 300px;
+.bio {
+    flex: 0 0 300px;
     font-size: 100%;
     text-align: center;
     height: auto;
 }
 
-main .bio .profile-picture {
+.bio .profile-picture {
     width: 70%;
     display: block;
     margin-left: auto;
@@ -78,28 +79,42 @@ main .bio .profile-picture {
     border-radius: 50%;
     box-shadow: 0 6px 20px 0 rgba(0,0,0,0.19);
 } 
-main .bio .name {
+.bio .name {
     font-size: 200%;
     margin-top: 10px;
     margin-bottom: 10px;;
 }
 
 
-main .bio .link-icon-container .link-icon {
+.bio .link-icon-container .link-icon {
     margin: 0px 10px 0px 10px;
     text-decoration: none;
 }
 
 
+.card h1 {
+    font-size: 30px;
+}
+
+.card p {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+
+
+
 
 footer {
     width: 100%;
+    /*
     position: absolute;
     bottom: 0;
+    */
     text-align: center;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 700px) {
     main {
         background-color: black;
         display: inline;
