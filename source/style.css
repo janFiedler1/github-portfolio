@@ -96,7 +96,7 @@ main {
 .bio h2 {
     font-size: 15px;
     margin-top: 5px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     color: #888686;
 }
 
@@ -110,12 +110,30 @@ main {
     text-decoration: none;
 }
 
+/*
+.bio .link-icon-container .link-icon:hover{
+    width: 130%;
+}
+*/
+
 .qualifications {
     width: auto;
 }
 
 .interests {
     width: auto;
+}
+
+.about a{
+    text-decoration: none;
+}
+
+.about p {
+    margin: 20px 5px 20px 5px;
+}
+
+.about h1 {
+    margin: 10px 5px 20px 5px;
 }
 
 
