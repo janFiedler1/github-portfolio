@@ -67,6 +67,11 @@ main {
     font-size: 30px;
 }
 
+.card h2 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
 .card p {
     font-size: 20px;
     margin-top: 10px;
@@ -88,7 +93,6 @@ main {
     box-shadow: 0 6px 20px 0 rgba(0,0,0,0.19);
 } 
 .bio h1 {
-    font-size: 30px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -135,10 +139,14 @@ main {
 .about h1 {
     margin: 10px 5px 20px 5px;
 }
+.about a{
+    white-space: nowrap;
+}
 
 .qualifications {
     flex: 1 0 auto;
 }
+
 
 .interests {
     flex: 1 0 auto;
