@@ -37,6 +37,15 @@ header .nav-button {
     margin: 0px;
 }
 
+header .hamburger {
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    display: none;
+    
+}
+
 header .nav-button:hover {
     background-color: #797a7a50;
     border-radius: 2px;
