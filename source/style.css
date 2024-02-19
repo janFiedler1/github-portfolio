@@ -37,6 +37,10 @@ header .nav-button {
     margin: 0px;
 }
 
+header a {
+    text-decoration: none;
+}
+
 header .hamburger {
     position: absolute;
     top: 50%;
@@ -53,7 +57,7 @@ header .nav-button:hover {
 }
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #f0eeee;
+    background-color: #ffffff;
 }
 main {
     display: inline;
@@ -159,6 +163,10 @@ main {
 
 .interests {
     flex: 1 0 auto;
+}
+
+.blank-space {
+    height: 600px;
 }
 
 

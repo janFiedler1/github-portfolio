@@ -1,12 +1,13 @@
-var x = document.getElementById("pronunciation");
-var pronounceButton = document.getElementById("pronounce");
+var profile_pic = document.getElementById("profile-pic");
 
-function playAudio() {
-  x.play();
+var main_background = document.getElementById("body");
+var card_background = document.getElementsByClassName("card");
+
+function night_mode() {
+  main_background.style.backgroundColor = "black";
+  for(let x=0;x<card_background.length;x++){
+    card_background[x].style.backgroundColor = "blank";
+    console.log(card_background[x].style.backgroundColor);
+  }
 }
-
-function pauseAudio() {
-  x.pause();
-}
-
-pronounceButton.onclick(playAudio());
+profile_pic.addEventListener("click", night_mode);

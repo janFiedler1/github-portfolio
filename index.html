@@ -9,18 +9,23 @@
     <title>My Website</title>
     <link rel="stylesheet" href="source/reset.css">
     <link rel="stylesheet" href="source/style.css">
-    <script src="index.js"></script>
     <audio id="pronunciation">
-        <source src="Cs-Jan.ogg" type="audio/ogg">
+        <source src="source/Cs-Jan.ogg" type="audio/ogg">
     </audio>
   </head>
-  <body>
+  <body id="body">
     <header role="page-header">
         <a class="logo" href="">JF</a>
         <nav class="site-navigation">
-            <button class="nav-button">About</button>
-            <button class="nav-button">Portfolio</button>
-            <button class="nav-button">Contact</button>
+            <a href="index.html">
+                <button class="nav-button">About</button>
+            </a>
+            <a href="portfolio.html">
+                <button class="nav-button">Portfolio</button>
+            </a>
+            <a href="contact.html">
+                <button class="nav-button">Contact</button>
+            </a>
         </nav>
         <button class="hamburger site-navigation">
             <img src="source/hamburger.png">
@@ -29,7 +34,7 @@
     <main role="main-content">
         <div class="row">
             <div class="bio card">
-                <img class ="profile-picture" src="source/profile_square.jpg">
+                <a id="profile-pic"><img class ="profile-picture" src="source/profile_square.jpg"></a>
                 <h1 class="name">Jan Fiedler</h1>
                 <h2>Hamilton, ON <img class="flag" src="source/canada_flag.png"></h2>
                 <div class="link-icon-container">
@@ -47,8 +52,8 @@
             <div class="about card">
                 <h1>Welcome</h1> 
                 <p>
-                    My name is Jan Fiedler, I am a software developer based in Hamilton, ON. I started programming in high school 
-                    when I took Intro to Python and have loved it ever since. I like solving puzzles and being creative, and creating
+                    My name is Jan Fiedler, I am a software developer based in Hamilton, ON. I started programming 7 years ago with Python and Java, 
+                    and deal mostly with Symfony 6 (PHP Framework). I like solving puzzles and being creative, and creating
                     software is the perfect outlet.
                 </p>
                 <p>
@@ -56,8 +61,8 @@
                     mostly for coursework (including <a href="https://en.wikipedia.org/wiki/Prolog">Prolog</a> which was both a fun challenge and at times the bane of my existence). 
                 </p>
                 <p>
-                    I am an avid athlete and ran competitively for 8 years. I have since continued to run to stay in shape and to spend time outdoors. I always say the best way to 
-                    get to know the city that you live in is to go for a run. I also enjoy hiking, spikeball, and team sports. On a less athletic note, I enjoy playing chess. I mostly
+                    I am an avid athlete and ran competitively for 8 yearsand still run to stay in shape and spend time outdoors. The best way to 
+                    get to know the city that you live in is to go for a run. I enjoy hiking, spikeball, and team sports. I also  enjoy playing chess. I mostly
                     play 1 | 1 bullet games, and I am always open for a <a href="https://friend.chess.com/daAFa">♔ challenge ♕</a>
                 </p>   
             </div>
@@ -103,13 +108,19 @@
         </div>
         
     </main>
-        
-        
-    </main>
+
+    <div class="empty-space">
+        <div class="card">
+            <h1></h1> 
+
+        </div>
+    </div>
+    
     <footer role="page-footer">
         <p>
             © 2024 Jan Fiedler
         </p>
     </footer>
   </body>
+  <script src="index.js"></script>
 </html>
