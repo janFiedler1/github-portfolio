@@ -36,7 +36,12 @@ header .nav-button {
     transition: 0.5s;
     margin: 0px;
 }
-
+header .nav-button:hover {
+    background-color: #797a7a50;
+    border-radius: 2px;
+    cursor: pointer;
+    
+}
 header a {
     text-decoration: none;
 }
@@ -47,12 +52,6 @@ header .hamburger {
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
     display: none;
-    
-}
-
-header .nav-button:hover {
-    background-color: #797a7a50;
-    border-radius: 2px;
     
 }
 body {
