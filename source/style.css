@@ -82,6 +82,7 @@ main {
 .card h2 {
     font-size: 20px;
     margin-top: 10px;
+    padding: 5px;
 }
 
 .card p {
@@ -157,8 +158,22 @@ main {
 
 .qualifications {
     flex: 1 0 auto;
+    animation-name: example;
+    animation-duration: 4s;
 }
 
+.qualifications span {
+    font-size:12px;
+    font-family: Arial;
+    font-style: bold;
+    background-color: #dddddd28;
+    padding: 5px;
+}
+
+.qualifications span:hover {
+    font-size:25px;
+    transition: all 500ms;
+}
 
 .interests {
     flex: 1 0 auto;
