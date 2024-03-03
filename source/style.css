@@ -167,6 +167,7 @@ main {
     font-family: Arial;
     font-style: bold;
     background-color: #dddddd28;
+    border-radius: 6px;
     padding: 5px;
 }
 
