@@ -183,11 +183,11 @@ main {
 .blank-space {
     height: 600px;
 }
-.skill-item:hover {
-    cursor: pointer;
-    transform: scale(2);
-    transition: transform 500ms;
-}
+
+
+
+
+
 footer {
     width: 100%;
     /*
@@ -201,7 +201,7 @@ footer {
     main {
         background-color: black;
         display: inline;
-    }h
+    }
     main .card {
         width: auto;
         font-size: 25px;
