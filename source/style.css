@@ -1,4 +1,7 @@
-/* comment */
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
 header {
     background-color: #f0f0f0;
     overflow: hidden;
@@ -161,19 +164,23 @@ main {
     animation-name: example;
     animation-duration: 4s;
 }
-
-.qualifications span {
-    font-size:12px;
-    font-family: Arial;
-    font-style: bold;
-    background-color: #dddddd28;
-    border-radius: 6px;
-    padding: 5px;
+.skill-container {
+    display: flex;
 }
 
-.qualifications span:hover {
-    font-size:25px;
+.qualifications .skill {
+    font-size:15px;
+    font-family: Arial;
+    font-style: bold;
+    background-color: #dddddd10;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.qualifications .skill:hover {
+    background-color: rgba(121, 122, 122, 0.116);
     transition: all 500ms;
+    cursor: pointer;
 }
 
 .interests {
